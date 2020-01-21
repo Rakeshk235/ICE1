@@ -1,9 +1,10 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Name : Rakesh Kumar
+ * Student number : 991556750
  */
 package ca.sheridancollege.week3.softwarefundamentals.ice1;
+
+import java.util.Scanner;
 
 /**
  * A class that fills a magic hand of 7 cards with random Card Objects
@@ -20,13 +21,20 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
+            double r = (Math.random()*((14-3)*3-1);
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
         }
         
         //insert code to ask the user for Card value and suit, create their card
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the card value=");
+        String sc = Scanner.
+        
         // and search magicHand here
+        
         //Then report the result here
+        
     }
     
 }
