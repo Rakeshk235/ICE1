@@ -21,15 +21,18 @@ public class CardTrick {
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
-            double r = (Math.random()*((14-3)*3-1);
-            //c.setValue(insert call to random number generator here)
-            //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
+            double r = (Math.random()*(13+1));
+            int num = (int) r;
+            double r1 = (Math.random()*(13+1));
+            int num2 = (int) r1;
+            c.setValue(num);
+            c.setSuit(Card.SUITS[num2]);
         }
         
         //insert code to ask the user for Card value and suit, create their card
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the card value=");
-        String sc = Scanner.
+        System.out.println("enter the card suit=");
         
         // and search magicHand here
         
